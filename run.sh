@@ -11,7 +11,7 @@ if [$TYPE = "ps" ]; then
     apt-get install -y mongodb-org
     mongod --port 5000
 else
-    python examples/parallel-examples/bianchini/runner.py -l $WORKER_HOSTS
+    python examples/parallel-examples/bianchini/runner.py
 fi
 
 
